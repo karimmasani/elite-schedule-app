@@ -9,8 +9,4 @@ export class StandingsPage {
 
   constructor(public navCtrl: NavController) {}
 
-  ionViewDidLoad() {
-    console.log('Hello StandingsPage Page');
-  }
-
 }
