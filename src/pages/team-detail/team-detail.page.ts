@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { NavController, NavParams } from 'ionic-angular';
 
 /*
   Generated class for the TeamDetail page.
@@ -13,7 +13,12 @@ import { NavController } from 'ionic-angular';
 })
 export class TeamDetailPage {
 
-  constructor(public navCtrl: NavController) {}
+  team: any;
+
+  constructor(private navCtrl: NavController, private navParams: NavParams) {
+    this.team = this.navParams.data;
+    console.log('**nav param:', this.navParams);
+  }
 
   ionViewDidLoad() {
     console.log('Hello TeamDetailPage Page');
