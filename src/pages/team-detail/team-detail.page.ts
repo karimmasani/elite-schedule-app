@@ -14,8 +14,4 @@ export class TeamDetailPage {
     console.log('**nav param:', this.navParams);
   }
 
-  ionViewDidLoad() {
-    console.log('Hello TeamDetailPage Page');
-  }
-
 }

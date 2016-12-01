@@ -17,7 +17,7 @@ export class TeamsPage {
     { id: 3, name: 'DC Thunder' }
   ];
 
-  itemTapped($event) {
-    this.navCtrl.push(TeamHomePage);
+  itemTapped($event, team) {
+    this.navCtrl.push(TeamHomePage, team);
   }
 }

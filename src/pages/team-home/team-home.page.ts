@@ -12,5 +12,5 @@ export class TeamHomePage {
   teamDetailTab = TeamDetailPage;
   standingsTab = StandingsPage;
 
-  constructor(public navCtrl: NavController) {}
+  constructor(private navCtrl: NavController) {}
 }
