@@ -17,6 +17,7 @@ export class TeamHomePage {
   }
 
   goHome() {
-    this.navCtrl.push(MyTeamsPage);
+    //this.navCtrl.push(MyTeamsPage);
+    this.navCtrl.popToRoot();
   }
 }

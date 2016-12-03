@@ -13,5 +13,4 @@ export class TeamDetailPage {
     this.team = this.navParams.data;
     console.log('**nav param:', this.navParams);
   }
-
 }
